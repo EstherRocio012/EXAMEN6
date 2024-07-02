@@ -67,3 +67,14 @@ En ocasiones, los procesos de backend o frontend, con o sin depuración, pueden 
 1. Cuando el profesor te dé el visto bueno, puedes subir el ZIP a la plataforma de Enseñanza Virtual. **Es muy importante esperar a que la plataforma te muestre un enlace al ZIP antes de pulsar el botón de enviar**. Se recomienda descargar ese ZIP para comprobar lo que se ha subido. Un vez realizada la comprobación, puedes enviar el examen.
   
 Si no se siguen estos pasos de manera escrupulosa, cabe la posibilidad de que no se entregue nada o que el ZIP contenga cualquier cosa. 
+
+## Enunciado
+Realice las modificaciones que considere necesarias, tanto en backend como en frontend, para satisfacer los nuevos requisitos que a continuación se describen.
+
+Se desea ofrecer a los propietarios que los productos de sus restaurantes aparezcan ordenados según el campo order de la entidad Producto o según el campo price del producto, y que puedan determinar cual será el orden predeterminado en cada restaurante, de manera que cuando se listen los productos aparezcan siempre según el orden que haya decidido.
+
+Recuerde que actualmente los productos se muestran en la pantalla de detalle del restaurante y el backend los devuelve siempre ordenados según el campo order. Por defecto, cada restaurante ordenará sus productos según el mencionado campo order.
+
+Implemente los cambios necesarios en Backend y Frontend para incluir dicha funcionalidad. Se espera que el Frontend siga un diseño como el que se muestra en las siguientes capturas.
+
+Nótese que no se pide modificación de las pantallas de creación o edición de restaurante.
